@@ -1,0 +1,41 @@
+.header_box{
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+  z-index: 99;
+}
+.header{
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  color: #9d9d9d;
+  font-size: 15px;
+}
+.header .logo{
+  font-size: 20px;
+  color: #fdd257;
+}
+.header .nav{
+  display: flex;
+  margin-left: 20px;
+  text-align: center;
+}
+.nav span{
+  width: 50px;
+  margin-left: 20px;
+}
+.nav span:hover{
+  color: aliceblue;
+  background-color: #008cba;
+}
+.header .log{
+  width: 50px;
+  margin-left: auto;
+  text-align: center;
+}
+.heg{
+  height: 50px;
+}
+
+
+

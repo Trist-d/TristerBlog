@@ -1,0 +1,156 @@
+.des_mr{
+  margin-right: 120px;
+}
+/* 列表左侧内容 */
+.content_index{
+  display: flex;
+  padding: 20px 0;
+}
+.content_l{
+  width: 67%;
+  padding-right: 10px;
+}
+.article_box{
+  position: relative;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color:white;
+}
+.article_box .title{
+  font-size: 24px;
+  color: #337ab7;
+  margin-bottom: 20px;
+}
+.article_box .describe{
+  display: flex;
+  margin-bottom: 20px;
+}
+.article_box .con{
+  position: relative;
+}
+.article_box .con .con_main{
+  display: flex;
+}
+.article_box .con .con_main img{
+  height: 200px;
+  border: 1px solid #333;
+}
+.article_box .con .con_main p{
+  height: 200px;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+.article_box .con .btn{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 80px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  background-color: #34afd8;
+}
+/* 分页 */
+.content_l .pagination{
+  text-align: center;
+}
+/* 列表右侧内容 */
+.content_r{
+  width: 33%;
+}
+/* 搜索 */
+.content_r .search{
+  background-color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+}
+.search .inp{
+  width: 280px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #333;
+  /* border-right: none; */
+  padding: 0;
+}
+.search .sub{
+  font-size: 16px;
+  width: 70px;
+  height: 42px;
+  line-height:38px;
+  padding: 0;
+  color: white;
+  background-color: #008cba;
+  display: inline-block;
+}
+/* 热门标签 */
+.content_r .hotLabel{
+  padding: 10px 20px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.hotLabel .title{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.hotLabel .labels{
+  display: flex;
+  flex-wrap: wrap;
+}
+.labels p{
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  background-color: #34afd8;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+}
+.labels p:nth-child(2n){
+  background-color: tomato;
+}
+.labels p:nth-child(3n){
+  background-color: teal;
+}
+.labels p:nth-child(4n){
+  background-color: wheat;
+}
+/* 置顶推荐 */
+.content_r .recommend{
+  padding: 10px 20px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.recommend .title{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.recommend .rec{
+  /* padding: 0 10px; */
+  margin-bottom: 10px;
+}
+/* 友情链接 */
+
+.content_r .link{
+  padding: 10px 20px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.link .title{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.link .lin{
+  /* padding: 0 10px; */
+  margin-bottom: 10px;
+}
